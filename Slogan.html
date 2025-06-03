@@ -1,31 +1,121 @@
-<html>
-    <head>
-        <style>
-            body {background-color: rgb(177, 102, 173);}
-        h1 {color: rgb(116, 9, 27); margin-left: 40px;}
 
-        </style>
-    </head>
-    <body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Our Slogan | Exclusive Clothing</title>
 
-</style>
-<div style="text-align: center; margin-top: 42;">
-<a style="padding-right: 22px;" href="Home.html">Home</a>
-<a style="padding-right: 22px;" href="About us.html">About us</a>
-<a style="padding-right: 22px;" href="Slogan.html">Slogan</a>
-<a style="padding-right: 22px;" href="Images.html">Images</a>
-<a style="padding-right: 22px;" href="Contacts.html">Contacts</a>
-</div>
+    <!-- Google Web Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 
-<h1 style="font-size: 25px; text-align:center;">Our Slogan</h1>
+    <style>
+        /* Reset + Base Styles */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
 
-<h1 style="font-size: 40px; text-align: center;">Exclusive Clothing</h1>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: rgb(177, 102, 173);
+            color: #2a002a;
+            padding: 30px;
+            border: 10px solid #4b004b;
+        }
 
-<p style="font-size:  17px; text-align: center; line-height: 34px; margin-right: 50;" the aim is to dress to impress. if you dress good, you fell good!></p>
+        /* Navigation Bar */
+        nav {
+            background-color: #f3defb;
+            text-align: center;
+            padding: 14px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
 
-<hr style="width: 50;">
+        nav a {
+            margin: 0 12px;
+            padding: 8px 16px;
+            text-decoration: none;
+            color: #3b003b;
+            font-weight: bold;
+            font-size: 16px;
+        }
 
-<h1 style="font-size: 40; text-align: center;">"Exclusive by design, Rare by Nature"</h1>
+        nav a:hover {
+            background-color: #3b003b;
+            color: white;
+            border-radius: 5px;
+            transition: 0.3s ease;
+        }
+
+        /* Headings */
+        h1.main-title {
+            font-size: 40px;
+            text-align: center;
+            margin: 20px 0 10px 0;
+            color: #300020;
+        }
+
+        h1.sub-title {
+            font-size: 25px;
+            text-align: center;
+            margin-bottom: 10px;
+            color: #54002e;
+        }
+
+        h1.slogan-tagline {
+            font-size: 32px;
+            font-weight: 700;
+            text-align: center;
+            margin-top: 40px;
+            color: #220022;
+        }
+
+        /* Paragraph */
+        .slogan-text {
+            font-size: 18px;
+            text-align: center;
+            line-height: 1.8;
+            max-width: 700px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+        }
+
+        /* Horizontal Rule */
+        hr.decorative {
+            width: 50%;
+            border: 2px dashed #660066;
+            margin: 30px auto;
+        }
+
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="Home.html">Home</a>
+        <a href="About us.html">About us</a>
+        <a href="Slogan.html">Slogan</a>
+        <a href="Images.html">Images</a>
+        <a href="Contacts.html">Contacts</a>
+    </nav>
+
+    <h1 class="sub-title">Our Slogan</h1>
+    <h1 class="main-title">Exclusive Clothing</h1>
+
+    <div class="slogan-text">
+        The aim is to dress to impress.<br>
+        If you dress good, you feel good!
+    </div>
+
+    <hr class="decorative">
+
+    <h1 class="slogan-tagline">"Exclusive by design, Rare by Nature"</h1>
 
 </body>
 </html>

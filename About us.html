@@ -1,27 +1,147 @@
-<html>
-    <head>
-        <style>
-            body {background-color: rgb(177, 102, 173);}
-        h1 {color: rgb(116, 9, 27); margin-left: 40px;}
 
-        </style>
-    </head>
-    <body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exclusive Clothing</title>
 
+    <!-- Web Font Import -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
 
-<div style="text-align: center; margin-top: 42;">
-    <a style="padding-right: 22px;" href="Home.html">Home</a>
-    <a style="padding-right: 22px;" href="About us.html">About us</a>
-    <a style="padding-right: 22px;" href="Slogan.html">Slogan</a>
-    <a style="padding-right: 22px;" href="Images.html">Images</a>
-    <a style="padding-right: 22px;" href="Contacts.html">Contacts</a>
+    <style>
+        /* Base Styles */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: rgb(177, 102, 173);
+            color: #333;
+            padding: 20px;
+            border: 10px solid #4b004b;
+        }
+
+        /* Header */
+        h1 {
+            color: rgb(116, 9, 27);
+            text-align: center;
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        /* Navigation Bar */
+        nav {
+            background-color: #f8e1ff;
+            padding: 15px;
+            text-align: center;
+            margin-bottom: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        nav a {
+            padding: 10px 20px;
+            margin: 0 8px;
+            color: #3a003a;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 16px;
+        }
+
+        nav a:hover {
+            background-color: #3a003a;
+            color: white;
+            border-radius: 5px;
+            transition: 0.3s ease;
+        }
+
+        /* Main Content */
+        .content {
+            background-color: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+            max-width: 900px;
+            margin: 0 auto;
+            position: relative;
+        }
+
+        .content p {
+            font-size: 18px;
+            line-height: 1.8;
+            text-align: center;
+            margin-bottom: 30px;
+            letter-spacing: 0.3px;
+        }
+
+        /* Decorative Divider */
+        .section-divider {
+            border-top: 3px dashed #4b004b;
+            margin: 40px auto 20px auto;
+            width: 60%;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 28px;
+            font-weight: 700;
+            margin-top: 10px;
+            color: #3a003a;
+        }
+
+        /* Optional floating image or block */
+        .float-box {
+            float: right;
+            width: 200px;
+            height: 200px;
+            margin: 20px;
+            background-color: #ffe4fc;
+            border: 2px solid #cc5acc;
+            border-radius: 8px;
+            padding: 10px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        /* Clear float */
+        .clearfix::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="Home.html">Home</a>
+        <a href="About us.html">About us</a>
+        <a href="Slogan.html">Slogan</a>
+        <a href="Images.html">Images</a>
+        <a href="Contacts.html">Contacts</a>
+    </nav>
+
+    <h1>Exclusive Clothing</h1>
+
+    <div class="content clearfix">
+        <div class="float-box">
+            Limited Edition<br>Available Now!
+        </div>
+
+        <p>
+            At <strong>Exclusive Clothing</strong>, we blend timeless elegance with modern edge. Our curated collections
+            are designed for those who demand sophistication, individuality, and impeccable quality.
+            Every piece is crafted to make a statement — bold, refined, and unapologetically exclusive.
+            Elevate your wardrobe with fashion that stands apart.
+        </p>
+
+        <div class="section-divider"></div>
+        <div class="section-title">Our Core Service</div>
     </div>
-
-    
-<p style="font-size: 17px; text-align: center; line-height: 34; margin-right: 50;">At Exclusive Clothing, we blend timeless elegance with modern edge. Our curated collections are designed for those who demand sophistication, individuality, and impeccable quality. Every piece is crafted to make a statement — bold, refined, and unapologetically exclusive. Elevate your wardrobe with fashion that stands apart</p>
-
-
-<hr style="font-size: 25px; text-align: center;">"Our core service"</h1>
 
 </body>
 </html>
