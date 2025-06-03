@@ -1,29 +1,127 @@
-<html>
-    <head>
-        <style>
-            body {background-color: rgb(177, 102, 173);}
-        h1 {color: rgb(116, 9, 27); margin-left: 40px;}
+ 
 
-        </style>
-    </head>
-    <body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exclusive Clothing - Home</title>
+    
+    <!-- Web font (Google Fonts) -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
 
-<div style="text-align: center; margin-top: 42;">
-    <a style="padding-right: 22px;" href="Home.html">Home</a>
-    <a style="padding-right: 22px;" href="About us.html">About us</a>
-    <a style="padding-right: 22px;" href="Slogan.html">Slogan</a>
-    <a style="padding-right: 22px;" href="Images.html">Images</a>
-    <a style="padding-right: 22px;" href="Contacts.html">Contacts</a>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(177, 102, 173);
+            background-image: url("images/EC-logo.png"); /* Replace with your actual logo path */
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 400px;
+            background-attachment: fixed;
+            font-family: 'Roboto', sans-serif;
+            color: #1e1e1e;
+            padding: 20px;
+        }
+
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url("images/EC-logo.png"); /* Replace with your actual logo path */
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 400px;
+            opacity: 0.07;
+            z-index: -1;
+        }
+
+        nav {
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px 0;
+            background-color: rgba(255, 255, 255, 0.15);
+            border-radius: 12px;
+            border: 2px solid #fff;
+        }
+
+        nav a {
+            font-weight: 500;
+            text-decoration: none;
+            color: #fff;
+            margin: 0 15px;
+            padding: 10px 15px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: rgba(255, 255, 255, 0.3);
+        }
+
+        h1 {
+            color: rgb(116, 9, 27);
+            text-align: center;
+            font-family: 'Playfair Display', serif;
+            font-size: 48px;
+            margin: 40px 0 20px 0;
+        }
+
+        .hero-image {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .hero-image img {
+            width: 100%;
+            max-width: 600px;
+            border-radius: 20px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            border: 4px solid #fff;
+            transition: transform 0.3s ease;
+        }
+
+        .hero-image img:hover {
+            transform: scale(1.02);
+        }
+
+        .section-title {
+            font-size: 24px;
+            text-align: center;
+            margin-top: 30px;
+            font-weight: 600;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="Home.html">Home</a>
+        <a href="About us.html">About us</a>
+        <a href="Slogan.html">Slogan</a>
+        <a href="Images.html">Images</a>
+        <a href="Contacts.html">Contacts</a>
+    </nav>
+
+    <!-- Main Title -->
+    <h1>Welcome to Exclusive Clothing</h1>
+
+    <!-- Featured Image Section -->
+    <div class="hero-image">
+        <a href="About us.html">
+            <img src="images/exclusive-model.jpg" alt="Exclusive Clothing Model">
+        </a>
+        <p class="section-title">Click the image to learn more about us</p>
     </div>
 
-    <head>
-
-        <body>
-
-           <img src="Exclusive clothing.png" height="500" alt="this is a girl wearing the exclusive clothing product" title="EC is unique">
-            
-        </body>
-
-    </head>
 </body>
 </html>

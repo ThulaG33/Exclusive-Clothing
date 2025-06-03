@@ -1,0 +1,71 @@
+/* Header */
+h1 {
+    font-family: 'Playfair Display', serif;
+    color: rgb(116, 9, 27);
+    font-size: 54px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Navigation bar */
+nav {
+    text-align: center;
+    background-color: #f5e6f7;
+    padding: 15px 0;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+nav a {
+    font-weight: 600;
+    font-size: 18px;
+    padding: 10px 18px;
+    color: #3b003b;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    color: white;
+    background-color: #3b003b;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+/* Main content block */
+.content {
+    background-color: white;
+    padding: 30px;
+    max-width: 900px;
+    margin: 0 auto;
+    border-radius: 16px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+    position: relative;
+}
+
+.content p {
+    font-size: 18px;
+    line-height: 1.8;
+    letter-spacing: 0.5px;
+}
+
+/* Decorative floating element */
+.ribbon {
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    background-color: #3b003b;
+    color: white;
+    padding: 8px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    transform: rotate(10deg);
+    border-radius: 4px;
+}
+
+/* Footer or bottom padding */
+.spacer {
+    height: 50px;
+}
+ 
